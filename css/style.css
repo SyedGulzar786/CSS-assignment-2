@@ -1,0 +1,12 @@
+body{background-color:#101010 ;}
+.ah1>h1{text-align: center;
+    font-size: 200px;
+    color:chocolate;
+    text-shadow: 10px 10px 10px black;}
+a:link{color:teal;}
+a:visited{color: teal;}
+.alink>a{text-transform: capitalize;
+       text-align: center;
+       font-size: 70px;
+       text-shadow:10px 10px 10px black;}
+.alink{padding: 0px 360px;}
