@@ -1,12 +1,69 @@
-body{background-color:#101010 ;}
-.ah1>h1{text-align: center;
-    font-size: 200px;
-    color:chocolate;
-    text-shadow: 10px 10px 10px black;}
-a:link{color:teal;}
-a:visited{color: teal;}
-.alink>a{text-transform: capitalize;
-       text-align: center;
-       font-size: 70px;
-       text-shadow:10px 10px 10px black;}
-.alink{padding: 0px 360px;}
+body{background-color:#101010 ; margin:0px}  
+
+.ah1 > h1 { text-align: center; font-size: 200px; }
+
+.chocolate { color: chocolate; }
+
+.teal:link { color: teal; }
+
+.teal:visited { color: teal; }
+
+.teal { color: teal; }
+
+.alink > a { text-align: center; font-size: 70px; text-shadow: 10px 10px 10px black; }
+
+* { text-transform: capitalize; text-decoration: none; text-shadow: 10px 10px 10px black;}
+
+.alink { padding: 0px 360px; }
+
+.logo > h4 { padding: 40px; text-align: center; }
+
+.heading { height: 60px; padding: 20px 40px; font-size: 57px; text-decoration: underline; }
+
+.marquee > p { text-align: center; }
+
+.marquee{margin: 0px 50px;}
+
+.whitening { color: white; }
+
+.menu-card { display: inline-block; padding: 0px 50px; width: 250px; padding-top: 150px; } 
+.menu-card:hover{ display: inline-block; padding: 55px; width: 248px; height: 248px;
+        .cpprg { font-size: 25px; margin-left: 200px; }
+        .sub-heading { font-size: 30px; }
+        .cpheading { font-size: 30px; }
+        .imgcircle > img { width: 210px ; height: 210px; border-radius: 105px; box-shadow: 0px 0px 56px 16px black; margin-top: 10px; margin-left: 100px; }} 
+
+.nbar { border-width: 3px 0px 3px 0px; border-style: solid; border-color: black; margin:20px 0px 0px 0px;}
+
+.maje { color: burlywood; }
+
+.sub-heading { margin-bottom: 20px; font-size: 20px; }
+
+.imgcircle > img { margin-left: 30px; width: 200px ; height: 200px; border-radius: 100px; box-shadow: 0px 0px 42px 4px black;}
+
+.cpprg { margin-left: 150px; font-size: 20px; }
+
+.target-heading { background-color: #101010; display: inline-block; margin-bottom: 30px; margin-top: 30px; margin-left:  80px; margin-right: 80px ; border-radius: 80px; border-width: 2px; border-color: chocolate; border-style: solid; padding: 23px; padding-left:  30px; padding-right: 30px ;}
+
+.nbar { text-align: center; }
+
+.header { background-color: #101010; width: 100%; position: fixed; top: 0px; } 
+
+.body { margin-top: 400px; }
+
+.ligt :hover { color: chocolate;}
+
+.ligt { color: burlywood; }
+
+.backing{text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
