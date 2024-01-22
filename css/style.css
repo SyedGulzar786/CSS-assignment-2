@@ -33,7 +33,7 @@ body{background-color:#101010 ; margin:0px}
         .cpheading { font-size: 30px; }
         .imgcircle > img { width: 210px ; height: 210px; border-radius: 105px; box-shadow: 0px 0px 56px 16px black; margin-top: 10px; margin-left: 100px; }} 
 
-.nbar { border-width: 3px 0px 3px 0px; border-style: solid; border-color: black; margin:20px 0px 0px 0px;}
+.nbar { border-width: 3px 0px 3px 0px; border-style: solid; border-color: black; }
 
 .maje { color: burlywood; }
 
@@ -56,6 +56,40 @@ body{background-color:#101010 ; margin:0px}
 .ligt { color: burlywood; }
 
 .backing{text-align: center;}
+
+.nmove > div { display: inline-block; }
+
+.fry { width: 100px ; margin: 0px 20px 0px 20px; padding: 8px 0px ; font-size: 20px; border: 2px white solid; border-radius: 10px; }
+
+.nmove { width: 600px; margin: 20px 0px 20px auto; }
+
+.navigator { text-align: center; padding: 10px 0px 10px 0px; }
+
+.akaza { font-size: 25px; }
+
+.hblbank:hover{color:burlywood ;}
+
+.fontimg { margin: 0PX auto; width: 1760px; height: 890px; }
+  
+.fontimg > img { width: 100%; height: 100%; border: 5px white solid; border-radius: 20px; }
+
+.boximg > img {  width: 100%; height: 100%; border: 5px white solid; border-radius: 30px; }
+
+.boximg { margin: 15px 15px; width: 570px; height: 295px; display: inline-block;  }
+
+.divimg { padding: 10px 47px; margin-top: 50px; }
+
+.homey { color:#101010; background-color: burlywood; border: chocolate; }
+
+.menusha { color:#101010; background-color: burlywood; border: chocolate; } 
+
+.box { background-color: antiquewhite; width: 1760px; height: 400px; margin: 0px 75px; display: inline-block;}
+
+.recipeimg { width: 800px; height: 100%; background-color: black; display: inline-block;}
+
+.recipeimg > img { width: 100%; height:100%; }
+
+.rip { width: 900px; height: 100%; background-color: aqua;  }
 
 
 
