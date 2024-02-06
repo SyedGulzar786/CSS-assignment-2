@@ -47,7 +47,7 @@ body{background-color:#101010 ; margin:0px}
 
 .nbar { text-align: center; }
 
-.header { background-color: #101010; width: 100%; position: fixed; top: 0px; } 
+.header { background-color: #101010; width: 100%; position: fixed; top: 0px; left: 0px; } 
 
 .body { margin-top: 400px; }
 
@@ -91,7 +91,7 @@ body{background-color:#101010 ; margin:0px}
 .datura { filter: brightness(90%); border-image: fill 0 linear-gradient(#0003, #000); }
 .datura > img { border-image: fill 0 linear-gradient(#0003, #000); }
 
-.datura:hover { > img { filter:blur(1.5px); }
+.datura:hover { > img { filter:blur(2px); }
       .zoom-text-one { display: grid; justify-content: space-between; }
       .zoom-text-two { display: grid; justify-content: space-between; }
       .zoom-text-three { display: grid; justify-content: space-between; }
