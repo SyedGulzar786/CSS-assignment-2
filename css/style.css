@@ -27,7 +27,7 @@ body{background-color:#101010 ; margin:0px}
 .whitening { color: white; }
 
 .menu-card { display: inline-block; padding: 0px 50px; width: 250px; padding-top: 150px; } 
-.menu-card:hover{ display: inline-block; padding: 55px; width: 248px; height: 248px;
+.menu-card:hover{ display: inline-block; padding: 55px; width: 248px; height: 248px; 
         .cpprg { font-size: 25px; margin-left: 200px; }
         .sub-heading { font-size: 30px; }
         .cpheading { font-size: 30px; }
@@ -73,9 +73,9 @@ body{background-color:#101010 ; margin:0px}
   
 .fontimg > img { width: 100%; height: 100%; border: 5px white solid; border-radius: 20px; }
 
-.boximg > img {  width: 100%; height: 100%; border: 5px white solid; border-radius: 30px; }
+.boximg > img {  width: 100%; height: 100%; border: 5px white solid; border-radius: 30px;  }
 
-.boximg { margin: 15px 15px; width: 570px; height: 295px; display: inline-block;  }
+.boximg {  margin: 15px 15px; width: 570px; height: 295px; display: inline-block;  }
 
 .divimg { padding: 10px 47px; margin-top: 50px; }
 
@@ -91,13 +91,48 @@ body{background-color:#101010 ; margin:0px}
 
 .rip { width: 900px; height: 100%; background-color: aqua;  }
 
+.mummyjaan { object-fit: contain; }
 
+.datura { filter: brightness(90%); border-image: fill 0 linear-gradient(#0003, #000); }
+.datura > img { border-image: fill 0 linear-gradient(#0003, #000); }
 
+.datura:hover { > img { filter:blur(1.5px); }
+      .zoom-text-one { display: grid; justify-content: space-between; }
+      .zoom-text-two { display: grid; justify-content: space-between; }
+      .zoom-text-three { display: grid; justify-content: space-between; }
+      .zoom-text-four { display: grid; justify-content: space-between; }
+      .zoom-text-five { display: grid; justify-content: space-between; }
+      .zoom-text-six { display: grid; justify-content: space-between; }
+      .zoom-text-seven { display: grid; justify-content: space-between; }
+      .zoom-text-eight { display: grid; justify-content: space-between; }
+      .zoom-text-nine { display: grid; justify-content: space-between; }}
 
+.zoom {
+        transition: transform .2s; /* Animation */
 
-
-
-
+      }
+      
+      .zoom:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+.oma { position: relative; }
+.zoom-text-one { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.omb { position: relative; }
+.zoom-text-two { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.omc { position: relative; }
+.zoom-text-three { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.omd { position: relative; }
+.zoom-text-four { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.ome { position: relative; }
+.zoom-text-five { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.omf { position: relative; }
+.zoom-text-six { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.omg { position: relative; }
+.zoom-text-seven { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.omh { position: relative; }
+.zoom-text-eight { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.omi { position: relative; }
+.zoom-text-nine { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
 
 
 
