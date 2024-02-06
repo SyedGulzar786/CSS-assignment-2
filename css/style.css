@@ -69,9 +69,6 @@ body{background-color:#101010 ; margin:0px}
 
 .hblbank:hover{color:burlywood ;}
 
-.fontimg { margin: 0PX auto; width: 1760px; height: 890px; }
-  
-.fontimg > img { width: 100%; height: 100%; border: 5px white solid; border-radius: 20px; }
 
 .boximg > img {  width: 100%; height: 100%; border: 5px white solid; border-radius: 30px;  }
 
@@ -90,8 +87,6 @@ body{background-color:#101010 ; margin:0px}
 .recipeimg > img { width: 100%; height:100%; }
 
 .rip { width: 900px; height: 100%; background-color: aqua;  }
-
-.mummyjaan { object-fit: contain; }
 
 .datura { filter: brightness(90%); border-image: fill 0 linear-gradient(#0003, #000); }
 .datura > img { border-image: fill 0 linear-gradient(#0003, #000); }
@@ -133,6 +128,71 @@ body{background-color:#101010 ; margin:0px}
 .zoom-text-eight { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
 .omi { position: relative; }
 .zoom-text-nine { position: absolute ; height: 100%; width: 100%; top: 0px; left: 6px;  font-size: 23px; font-weight: 700; display:none; }
+.gillery { text-align: center;  font-size: 130px; color: chocolate; aqua; margin-bottom: 0px; margin-top: 10px; }
+.janeman { text-align: center;  font-size: 30px; color: teal; }
 
 
+/* Reset styles for all elements */
 
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style main content */
+main {
+  padding: 2rem;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+/* Style Our Story section */
+#our-story {
+  margin-bottom: 2rem;
+}
+
+/* Style Our Team section */
+#our-team {
+  margin-bottom: 2rem;
+}
+
+/* Style Contact Us section */
+#contact-us {
+  margin-bottom: 2rem;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+.burlywood { color: burlywood; }
+.atif { font-size: 60px; }
+.arjit { font-size: 20px; }
+.armaan { font-size: 16px; }
+.footer { margin-top: 20px; }
+footer { margin-top: 80px; }
+.bhoom { margin-top: 20px; }
